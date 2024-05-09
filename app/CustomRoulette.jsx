@@ -76,7 +76,7 @@ const CustomRoulette = () => {
           <h2 className="text-lg font-semibold text-center">Current Tasks:</h2>
           <ul className="list-disc ml-8">
             {tasks.map((task, index) => (
-              <li key={index} className="py-2 border-b border-gray-300">
+              <li key={index} className="py-2 border-b text-black border-gray-300">
                 <span>{task}</span>
                 <button
                   className="ml-2 text-red-500"
